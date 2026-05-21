@@ -15,21 +15,6 @@ jobs:
   github-metrics:
     runs-on: ubuntu-latest
     steps:
-      - name: Profile overview
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN || github.token }}
-          user: arvemy
-          filename: github-metrics.svg
-          config_timezone: Europe/Istanbul
-          base: header, activity, community, repositories, metadata
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_followup_sections: repositories
-          plugin_achievements: yes
-          plugin_achievements_display: compact
-          plugin_achievements_threshold: C
-
       - name: Languages
         uses: lowlighter/metrics@latest
         with:
@@ -44,14 +29,3 @@ jobs:
           plugin_languages_other: yes
           plugin_languages_sections: most-used
           plugin_languages_details: percentage
-
-      - name: Isometric calendar
-        uses: lowlighter/metrics@latest
-        with:
-          token: ${{ secrets.METRICS_TOKEN || github.token }}
-          user: arvemy
-          filename: metrics.isocalendar.svg
-          config_timezone: Europe/Istanbul
-          base: ""
-          plugin_isocalendar: yes
-          plugin_isocalendar_duration: half-year
