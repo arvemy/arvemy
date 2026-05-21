@@ -18,7 +18,7 @@ jobs:
       - name: Profile overview
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: arvemy
           filename: github-metrics.svg
           config_timezone: Europe/Istanbul
@@ -33,7 +33,7 @@ jobs:
       - name: Languages
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: arvemy
           filename: metrics.languages.svg
           config_timezone: Europe/Istanbul
@@ -48,7 +48,7 @@ jobs:
       - name: Isometric calendar
         uses: lowlighter/metrics@latest
         with:
-          token: ${{ secrets.METRICS_TOKEN }}
+          token: ${{ secrets.METRICS_TOKEN || github.token }}
           user: arvemy
           filename: metrics.isocalendar.svg
           config_timezone: Europe/Istanbul

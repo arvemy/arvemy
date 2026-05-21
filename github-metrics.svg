@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="180" viewBox="0 0 800 180" role="img" aria-labelledby="title desc">
+  <title id="title">GitHub metrics loading</title>
+  <desc id="desc">Placeholder shown until the GitHub Metrics workflow generates this file.</desc>
+  <rect width="800" height="180" rx="8" fill="#0d1117"/>
+  <rect x="0.5" y="0.5" width="799" height="179" rx="7.5" fill="none" stroke="#30363d"/>
+  <text x="40" y="78" fill="#f0f6fc" font-family="Segoe UI, Ubuntu, sans-serif" font-size="28" font-weight="600">GitHub Metrics</text>
+  <text x="40" y="116" fill="#8b949e" font-family="Segoe UI, Ubuntu, sans-serif" font-size="16">This card will update after the Metrics workflow runs.</text>
+</svg>
