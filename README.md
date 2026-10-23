@@ -20,8 +20,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=GitHub+Stats&show=prs_merged%2Cprs_merged_percentage&hide=issues%2Ccontribs&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=9198a1&icon_color=4493f8&ring_color=4493f8">
-    <img width="407" height="170" src="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=GitHub+Stats&show=prs_merged%2Cprs_merged_percentage&hide=issues%2Ccontribs&hide_border=true&bg_color=00000000&title_color=1f2328&text_color=59636e&icon_color=0969da&ring_color=0969da" alt="GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
+    <img width="407" height="170" src="profile/stats-light.svg" alt="GitHub stats">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="profile/commit-langs-dark.svg">
