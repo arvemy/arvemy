@@ -1,10 +1,8 @@
 <p align="center">
-  <a href="https://github.com/arvemy">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=4493F8&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+Arvemy+%F0%9F%91%8B;Exploring+new+tech...;Learning+every+day...;Building+cool+stuff...;Creating+ideas...;Drinking+coffee...+%E2%98%95">
-      <img width="560" height="50" src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=0969DA&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+Arvemy+%F0%9F%91%8B;Exploring+new+tech...;Learning+every+day...;Building+cool+stuff...;Creating+ideas...;Drinking+coffee...+%E2%98%95" alt="Typing intro">
-    </picture>
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="profile/cat-runner-dark.svg">
+    <img width="840" height="150" src="profile/cat-runner-light.svg" alt="Hi, I'm Arvemy - a pixel cat running and jumping over cacti">
+  </picture>
 </p>
 
 <p align="center">
