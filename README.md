@@ -12,12 +12,6 @@
   <img src="https://skillicons.dev/icons?i=ts,js,c,react,nodejs,postgres,rust,python,astro,svelte,tailwind,docker,git,linux&perline=14" alt="Tech stack">
 </p>
 
-| Project | Description |
-| --- | --- |
-| [**mercury**](https://github.com/arvemy/mercury) | An opinionated TypeScript full-stack starter: React, Hono and PostgreSQL, powered by pnpm and Turborepo. |
-| [**wovo**](https://github.com/arvemy/wovo) | Rust project. |
-| [**yu-scheduler**](https://github.com/arvemy/yu-scheduler) | A client-side course scheduler for Yaşar University students that generates conflict-free timetables. Built with SvelteKit. |
-
 <p align="center">
   <img height="170" src="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats">
   <img height="170" src="profile/top-langs.svg" alt="Top languages">
