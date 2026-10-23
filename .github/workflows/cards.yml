@@ -14,10 +14,23 @@ jobs:
     steps:
       - uses: actions/checkout@v6
 
-      - name: Generate top languages card
-        run: python3 .github/scripts/top_langs.py profile
-        env:
-          GITHUB_TOKEN: ${{ secrets.METRICS_TOKEN }}
+      - name: Generate top languages card (light)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=arvemy&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=1f2328&text_color=59636e
+          path: profile/top-langs-light.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          fail_on_error: true
+
+      - name: Generate top languages card (dark)
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=arvemy&layout=compact&langs_count=8&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=9198a1
+          path: profile/top-langs-dark.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          fail_on_error: true
 
       - name: Commit cards
         run: |
