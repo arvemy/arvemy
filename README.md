@@ -8,21 +8,15 @@
   <a href="https://arvemy.github.io"><img src="https://img.shields.io/badge/Website-arvemy.github.io-7AA2F7?style=for-the-badge&logo=astro&logoColor=white" alt="Website"></a>
 </p>
 
-## 🛠️ Tech stack
-
 <p align="center">
   <img src="https://skillicons.dev/icons?i=ts,js,c,react,nodejs,postgres,rust,python,astro,svelte,tailwind,docker,git,linux&perline=14" alt="Tech stack">
 </p>
-
-## 🚀 Featured projects
 
 | Project | Description |
 | --- | --- |
 | [**mercury**](https://github.com/arvemy/mercury) | An opinionated TypeScript full-stack starter: React, Hono and PostgreSQL, powered by pnpm and Turborepo. |
 | [**wovo**](https://github.com/arvemy/wovo) | Rust project. |
 | [**yu-scheduler**](https://github.com/arvemy/yu-scheduler) | A client-side course scheduler for Yaşar University students that generates conflict-free timetables. Built with SvelteKit. |
-
-## 📊 GitHub stats
 
 <p align="center">
   <img height="170" src="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats">
