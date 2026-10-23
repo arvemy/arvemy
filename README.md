@@ -24,8 +24,8 @@
     <img width="407" height="170" src="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=GitHub+Stats&show=prs_merged%2Cprs_merged_percentage&hide=issues%2Ccontribs&hide_border=true&bg_color=00000000&title_color=1f2328&text_color=59636e&icon_color=0969da&ring_color=0969da" alt="GitHub stats">
   </picture>
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg">
-    <img width="268" height="170" src="profile/top-langs-light.svg" alt="Top languages">
+    <source media="(prefers-color-scheme: dark)" srcset="profile-summary-card-output/github_dark/2-most-commit-language.svg">
+    <img width="289" height="170" src="profile-summary-card-output/github/2-most-commit-language.svg" alt="Top languages by commit">
   </picture>
 </p>
 
