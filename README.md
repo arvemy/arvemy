@@ -26,7 +26,7 @@
 
 <p align="center">
   <img height="170" src="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats">
-  <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs?username=arvemy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
+  <img height="170" src="profile/top-langs.svg" alt="Top languages">
 </p>
 
 <p align="center">
