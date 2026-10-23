@@ -1,5 +1,34 @@
-# Hi, I'm Arvemy
+<p align="center">
+  <a href="https://github.com/arvemy">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=7AA2F7&center=true&vCenter=true&width=560&lines=Hi%2C+I'm+Arvemy+%F0%9F%91%8B;Exploring+new+tech...;Learning+every+day...;Building+cool+stuff...;Creating+ideas...;Drinking+coffee...+%E2%98%95" alt="Typing intro">
+  </a>
+</p>
 
 <p align="center">
-  <img src="metrics.languages.svg" alt="Most used languages" width="100%">
+  <a href="https://arvemy.github.io"><img src="https://img.shields.io/badge/Website-arvemy.github.io-7AA2F7?style=for-the-badge&logo=astro&logoColor=white" alt="Website"></a>
+</p>
+
+## 🛠️ Tech stack
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=ts,js,c,react,nodejs,postgres,rust,python,astro,svelte,tailwind,docker,git,linux&perline=14" alt="Tech stack">
+</p>
+
+## 🚀 Featured projects
+
+| Project | Description |
+| --- | --- |
+| [**mercury**](https://github.com/arvemy/mercury) | An opinionated TypeScript full-stack starter: React, Hono and PostgreSQL, powered by pnpm and Turborepo. |
+| [**wovo**](https://github.com/arvemy/wovo) | Rust project. |
+| [**yu-scheduler**](https://github.com/arvemy/yu-scheduler) | A client-side course scheduler for Yaşar University students that generates conflict-free timetables. Built with SvelteKit. |
+
+## 📊 GitHub stats
+
+<p align="center">
+  <img height="170" src="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub stats">
+  <img height="170" src="https://github-stats-extended.vercel.app/api/top-langs?username=arvemy&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top languages">
+</p>
+
+<p align="center">
+  <img src="https://streak-stats.demolab.com?user=arvemy&theme=tokyonight&hide_border=true" alt="GitHub streak">
 </p>
