@@ -1,7 +1,7 @@
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile/cat-runner-dark.svg">
-    <img width="840" height="150" src="profile/cat-runner-light.svg" alt="Hi, I'm Arvemy - a pixel cat running and jumping over cacti">
+    <source media="(prefers-color-scheme: dark)" srcset="profile/cat-game-dark.svg">
+    <img width="840" height="170" src="profile/cat-game-light.svg" alt="Hi, I'm Arvemy - a pixel cat runs, jumps over obstacles and racks up a score">
   </picture>
 </p>
 
