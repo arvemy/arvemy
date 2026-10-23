@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=ts,js,c,react,nodejs,postgres,rust,python,astro,svelte,tailwind,docker,git,linux&perline=14" alt="Tech stack">
+  <img src="https://skillicons.dev/icons?i=ts,js,c,go,react,nodejs,postgres,rust,python,astro,svelte,tailwind,docker,git,linux&perline=15" alt="Tech stack">
 </p>
 
 <p align="center">
