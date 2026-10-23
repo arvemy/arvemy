@@ -13,15 +13,15 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts,js,c,go,react,nodejs,postgres,rust,python,astro,svelte,tailwind,docker,git,linux&perline=15&theme=dark">
-    <img src="https://skillicons.dev/icons?i=ts,js,c,go,react,nodejs,postgres,rust,python,astro,svelte,tailwind,docker,git,linux&perline=15&theme=light" alt="Tech stack">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Cc%2Cgo%2Creact%2Cnodejs%2Cpostgres%2Crust%2Cpython%2Castro%2Csvelte%2Ctailwind%2Cdocker%2Cgit%2Clinux&perline=15&theme=dark">
+    <img src="https://skillicons.dev/icons?i=ts%2Cjs%2Cc%2Cgo%2Creact%2Cnodejs%2Cpostgres%2Crust%2Cpython%2Castro%2Csvelte%2Ctailwind%2Cdocker%2Cgit%2Clinux&perline=15&theme=light" alt="Tech stack">
   </picture>
 </p>
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=9198a1&icon_color=4493f8&ring_color=4493f8">
-    <img height="170" src="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&hide_border=true&bg_color=00000000&title_color=1f2328&text_color=59636e&icon_color=0969da&ring_color=0969da" alt="GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=GitHub+Stats&show=prs_merged%2Cprs_merged_percentage&hide=issues%2Ccontribs&hide_border=true&bg_color=00000000&title_color=e6edf3&text_color=9198a1&icon_color=4493f8&ring_color=4493f8">
+    <img height="170" src="https://github-stats-extended.vercel.app/api?username=arvemy&show_icons=true&include_all_commits=true&count_private=true&rank_icon=github&custom_title=GitHub+Stats&show=prs_merged%2Cprs_merged_percentage&hide=issues%2Ccontribs&hide_border=true&bg_color=00000000&title_color=1f2328&text_color=59636e&icon_color=0969da&ring_color=0969da" alt="GitHub stats">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="profile/top-langs-dark.svg">
