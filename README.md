@@ -20,8 +20,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="profile/stats-dark.svg">
-    <img width="407" height="170" src="profile/stats-light.svg" alt="GitHub stats">
+    <source media="(prefers-color-scheme: dark)" srcset="profile/github-stats-dark.svg">
+    <img width="407" height="170" src="profile/github-stats-light.svg" alt="GitHub stats">
   </picture>
   <picture>
     <source media="(prefers-color-scheme: dark)" srcset="profile/commit-langs-dark.svg">
