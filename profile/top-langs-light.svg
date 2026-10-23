@@ -1,10 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180" fill="none" role="img" aria-labelledby="title">
   <title id="title">Most Used Languages</title>
   <style>
-    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }
-    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #1f2328; }
+    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #59636e; }
   </style>
-  <rect x="0.5" y="0.5" rx="4.5" width="299" height="179" fill="#1a1b27"/>
   <text x="25" y="35" class="header">Most Used Languages</text>
   <g transform="translate(25, 55)">
     <mask id="bar-mask"><rect x="0" y="0" width="250" height="8" rx="5" fill="white"/></mask>

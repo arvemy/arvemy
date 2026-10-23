@@ -1,7 +1,8 @@
 """Render a compact "Most Used Languages" card across owned and organization repos.
 
-Reads GITHUB_TOKEN from the environment and writes the SVG to the path given as
-the first argument. Styled to match the github-readme-stats tokyonight theme.
+Reads GITHUB_TOKEN from the environment and writes top-langs-light.svg and
+top-langs-dark.svg into the directory given as the first argument. Transparent
+background with GitHub's own text colors, so it blends into the profile page.
 """
 
 import json
@@ -12,6 +13,11 @@ from html import escape
 
 LANGS_COUNT = 8
 EXCLUDE_LANGS = set()
+
+THEMES = {
+    "light": {"title": "#1f2328", "text": "#59636e"},
+    "dark": {"title": "#e6edf3", "text": "#9198a1"},
+}
 
 QUERY = """
 query($cursor: String) {
@@ -65,7 +71,7 @@ def fetch_languages(token):
     return sizes, colors
 
 
-def render(sizes, colors):
+def render(sizes, colors, theme):
     top = sorted(sizes.items(), key=lambda kv: kv[1], reverse=True)[:LANGS_COUNT]
     total = sum(size for _, size in top)
     rows = (len(top) + 1) // 2
@@ -90,10 +96,9 @@ def render(sizes, colors):
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}" fill="none" role="img" aria-labelledby="title">
   <title id="title">Most Used Languages</title>
   <style>
-    .header {{ font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #70a5fd; }}
-    .lang-name {{ font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #38bdae; }}
+    .header {{ font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: {theme["title"]}; }}
+    .lang-name {{ font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: {theme["text"]}; }}
   </style>
-  <rect x="0.5" y="0.5" rx="4.5" width="{width - 1}" height="{height - 1}" fill="#1a1b27"/>
   <text x="25" y="35" class="header">Most Used Languages</text>
   <g transform="translate(25, 55)">
     <mask id="bar-mask"><rect x="0" y="0" width="250" height="8" rx="5" fill="white"/></mask>
@@ -109,8 +114,10 @@ def main():
     sizes, colors = fetch_languages(token)
     if not sizes:
         raise SystemExit("No language data returned; refusing to overwrite the card.")
-    with open(sys.argv[1], "w") as f:
-        f.write(render(sizes, colors))
+    os.makedirs(sys.argv[1], exist_ok=True)
+    for name, theme in THEMES.items():
+        with open(os.path.join(sys.argv[1], f"top-langs-{name}.svg"), "w") as f:
+            f.write(render(sizes, colors, theme))
 
 
 if __name__ == "__main__":

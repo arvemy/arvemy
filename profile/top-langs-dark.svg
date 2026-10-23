@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="300" height="180" viewBox="0 0 300 180" fill="none" role="img" aria-labelledby="title">
+  <title id="title">Most Used Languages</title>
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #e6edf3; }
+    .lang-name { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #9198a1; }
+  </style>
+  <text x="25" y="35" class="header">Most Used Languages</text>
+  <g transform="translate(25, 55)">
+    <mask id="bar-mask"><rect x="0" y="0" width="250" height="8" rx="5" fill="white"/></mask>
+    <g mask="url(#bar-mask)"><rect x="0.00" y="0" width="74.63" height="8" fill="#3178c6"/><rect x="74.63" y="0" width="57.77" height="8" fill="#f1e05a"/><rect x="132.40" y="0" width="39.66" height="8" fill="#3572A5"/><rect x="172.06" y="0" width="36.37" height="8" fill="#7355dd"/><rect x="208.43" y="0" width="15.00" height="8" fill="#ff3e00"/><rect x="223.43" y="0" width="14.79" height="8" fill="#00ADD8"/><rect x="238.22" y="0" width="6.62" height="8" fill="#e4cc98"/><rect x="244.85" y="0" width="5.15" height="8" fill="#a91e50"/></g>
+    <g transform="translate(0, 25)"><g transform="translate(0, 0)"><circle cx="5" cy="6" r="5" fill="#3178c6"/><text x="15" y="10" class="lang-name">TypeScript 29.85%</text></g><g transform="translate(150, 0)"><circle cx="5" cy="6" r="5" fill="#f1e05a"/><text x="15" y="10" class="lang-name">JavaScript 23.11%</text></g><g transform="translate(0, 25)"><circle cx="5" cy="6" r="5" fill="#3572A5"/><text x="15" y="10" class="lang-name">Python 15.86%</text></g><g transform="translate(150, 25)"><circle cx="5" cy="6" r="5" fill="#7355dd"/><text x="15" y="10" class="lang-name">C# 14.55%</text></g><g transform="translate(0, 50)"><circle cx="5" cy="6" r="5" fill="#ff3e00"/><text x="15" y="10" class="lang-name">Svelte 6.00%</text></g><g transform="translate(150, 50)"><circle cx="5" cy="6" r="5" fill="#00ADD8"/><text x="15" y="10" class="lang-name">Go 5.92%</text></g><g transform="translate(0, 75)"><circle cx="5" cy="6" r="5" fill="#e4cc98"/><text x="15" y="10" class="lang-name">Tcl 2.65%</text></g><g transform="translate(150, 75)"><circle cx="5" cy="6" r="5" fill="#a91e50"/><text x="15" y="10" class="lang-name">EJS 2.06%</text></g></g>
+  </g>
+</svg>
