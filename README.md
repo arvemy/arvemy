@@ -13,8 +13,8 @@
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Cc%2Cgo%2Creact%2Cnodejs%2Cpostgres%2Crust%2Cpython%2Castro%2Csvelte%2Ctailwind%2Cdocker%2Cgit%2Clinux&perline=15&theme=dark">
-    <img width="836" height="48" src="https://skillicons.dev/icons?i=ts%2Cjs%2Cc%2Cgo%2Creact%2Cnodejs%2Cpostgres%2Crust%2Cpython%2Castro%2Csvelte%2Ctailwind%2Cdocker%2Cgit%2Clinux&perline=15&theme=light" alt="Tech stack">
+    <source media="(prefers-color-scheme: dark)" srcset="https://skillicons.dev/icons?i=ts%2Cjs%2Cc%2Cgo%2Cdart%2Cflutter%2Creact%2Cnodejs%2Cpostgres%2Crust%2Cpython%2Castro%2Csvelte%2Cdocker%2Cgit%2Clinux&perline=16&theme=dark">
+    <img width="891" height="48" src="https://skillicons.dev/icons?i=ts%2Cjs%2Cc%2Cgo%2Cdart%2Cflutter%2Creact%2Cnodejs%2Cpostgres%2Crust%2Cpython%2Castro%2Csvelte%2Cdocker%2Cgit%2Clinux&perline=16&theme=light" alt="Tech stack">
   </picture>
 </p>
 
